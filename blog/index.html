@@ -57,31 +57,9 @@
 
 
   
-  
-  <div class="site-header-image">
-    <img id="originBg" width="100%" alt="Hike News" src>
-  </div>
-
-  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
-    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src>
-  </div>
-
-  <script>
-        var imgUrls = "css/images/news1.jpg,https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60,https://images.unsplash.com/photo-1483736762161-1d107f3c78e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60,https://images.unsplash.com/photo-1497796742626-fe30f204ec54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=60".split(",");
-        var random = Math.floor((Math.random() * imgUrls.length ));
-        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
-          document.getElementById("originBg").src=imgUrls[random];
-          document.getElementById("blurBg").src=imgUrls[random];
-        } else {
-          document.getElementById("originBg").src='/' + imgUrls[random];
-          document.getElementById("blurBg").src='/' + imgUrls[random];
-        }
-    </script>
 
 
-
-
-<header id="allheader" class="site-header" role="banner" style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);">
+<header id="allheader" class="site-header" role="banner">
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -265,7 +243,7 @@
 
     	<ul class="clearfix widget-social-icons">   
     	
-   			<li><a href="https://github.com/qyqy22/qyqy22.github.io.git" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
+   			<li><a href="https://github.com/HighgoSoftware/HighgoSoftware.github.io.git" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
 
    		
    			<li><a href title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a></li> 
@@ -315,8 +293,8 @@
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/2019/05/06/pakistanofficeOpen/">Pakistan Office Open</a></h6>
-              <span>May 6, 2019</span>
+              <h6 style="margin: 0;"><a href="/2019/05/09/pakistanofficeOpen/">Pakistan Office Open</a></h6>
+              <span>May 9, 2019</span>
             </div>
 
           </li>
@@ -385,9 +363,6 @@
 
 
     <!-- headerblur min height -->
-    
-      var headerblur = document.getElementById("header-blur");
-      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
