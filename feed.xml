@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>HighGo</title>
+    <link>https://highgosoftware.github.io/</link>
+    <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>blog</description>
+    <pubDate>Tue, 04 Jun 2019 21:32:03 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Elephant-Shed</title>
+      <link>https://highgosoftware.github.io/2019/06/04/elephant-shed/</link>
+      <guid>https://highgosoftware.github.io/2019/06/04/elephant-shed/</guid>
+      <pubDate>Tue, 04 Jun 2019 20:52:47 GMT</pubDate>
+      <description>
+      
+        &lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;Elephant Shed 是一个基于网页版的postgreSQL前端管理软件。他捆绑了PostgreSQL的各项应用软件和组件。当前他能管理单点Debian/Ubuntu PostgreSQL服务起和应用。&lt;/p&gt;
+&lt;p&gt;主要组件包括如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PostgreSQL - &lt;a href=&quot;https://www.postgresql.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.postgresql.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;pgAdmin4 - &lt;a href=&quot;https://www.pgadmin.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.pgadmin.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;postgresql-common - &lt;a href=&quot;https://anonscm.debian.org/cgit/pkg-postgresql/postgresql-common.git&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://anonscm.debian.org/cgit/pkg-postgresql/postgresql-common.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;pgBadger - &lt;a href=&quot;http://dalibo.github.io/pgbadger/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://dalibo.github.io/pgbadger/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;pgBackRest - &lt;a href=&quot;http://www.pgbackrest.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.pgbackrest.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+      
+      </description>
+      
+      <comments>https://highgosoftware.github.io/2019/06/04/elephant-shed/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>The JIT benchmarking results and findings in PostgreSQL 11</title>
+      <link>https://highgosoftware.github.io/2019/05/26/JIT/</link>
+      <guid>https://highgosoftware.github.io/2019/05/26/JIT/</guid>
+      <pubDate>Sun, 26 May 2019 17:01:44 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;Just-in-time compilation of SQL statements is one of the new features in PostgreSQL 11. Just-in-Time compilation (JIT) is the process of turning some form of interpreted program evaluation into a native program and doing so at runtime. While doing some testing and benchmarking with JIT it appears that PostgreSQL 11 is about 29.31% faster at executing the TPC-H Q1 query than PostgreSQL 10. You could get details from &lt;a href=&quot;https://www.citusdata.com/blog/2018/09/11/postgresql-11-just-in-time/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.citusdata.com/blog/2018/09/11/postgresql-11-just-in-time/&lt;/a&gt;.&lt;/p&gt;
+      
+      </description>
+      
+      <comments>https://highgosoftware.github.io/2019/05/26/JIT/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Pakistan Office Open</title>
+      <link>https://highgosoftware.github.io/2019/05/09/pakistanofficeOpen/</link>
+      <guid>https://highgosoftware.github.io/2019/05/09/pakistanofficeOpen/</guid>
+      <pubDate>Thu, 09 May 2019 17:07:35 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;I am very pleased and thrilled to inform that i have joined HighGo Software Inc as a VP of Development and General Manager Pakistan office. HighGo Software is the largest commercial PostgreSQL provider in China. It is also a core member of PostgreSQL community in China and is the initiator of China PostgreSQL Association, under COPU (China Open Source Software Promotion Alliance) organization. Here is a link of China PostgreSQL association &lt;a href=&quot;http://www.postgresqlchina.com/en&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.postgresqlchina.com/en&lt;/a&gt;.      &lt;/p&gt;
+      
+      </description>
+      
+      <comments>https://highgosoftware.github.io/2019/05/09/pakistanofficeOpen/#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>
