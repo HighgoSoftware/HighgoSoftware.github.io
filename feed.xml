@@ -8,8 +8,22 @@
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>blog</description>
-    <pubDate>Tue, 04 Jun 2019 21:32:03 GMT</pubDate>
+    <pubDate>Fri, 07 Jun 2019 00:23:37 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>The JIT benchmarking results and findings in PostgreSQL 11</title>
+      <link>https://highgosoftware.github.io/2019/06/06/JIT/</link>
+      <guid>https://highgosoftware.github.io/2019/06/06/JIT/</guid>
+      <pubDate>Fri, 07 Jun 2019 00:23:44 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;Just-in-time compilation of SQL statements is one of the new features in PostgreSQL 11. Just-in-Time compilation (JIT) is the process of turning some form of interpreted program evaluation into a native program and doing so at runtime. While doing some testing and benchmarking with JIT it appears that PostgreSQL 11 is about 29.31% faster at executing the TPC-H Q1 query than PostgreSQL 10. You could get details from &lt;a href=&quot;https://www.citusdata.com/blog/2018/09/11/postgresql-11-just-in-time/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.citusdata.com/blog/2018/09/11/postgresql-11-just-in-time/&lt;/a&gt;.&lt;/p&gt;
+      
+      </description>
+      
+      <comments>https://highgosoftware.github.io/2019/06/06/JIT/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Elephant-Shed</title>
@@ -31,20 +45,6 @@
       </description>
       
       <comments>https://highgosoftware.github.io/2019/06/04/elephant-shed/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>The JIT benchmarking results and findings in PostgreSQL 11</title>
-      <link>https://highgosoftware.github.io/2019/05/26/JIT/</link>
-      <guid>https://highgosoftware.github.io/2019/05/26/JIT/</guid>
-      <pubDate>Sun, 26 May 2019 17:01:44 GMT</pubDate>
-      <description>
-      
-        &lt;p&gt;Just-in-time compilation of SQL statements is one of the new features in PostgreSQL 11. Just-in-Time compilation (JIT) is the process of turning some form of interpreted program evaluation into a native program and doing so at runtime. While doing some testing and benchmarking with JIT it appears that PostgreSQL 11 is about 29.31% faster at executing the TPC-H Q1 query than PostgreSQL 10. You could get details from &lt;a href=&quot;https://www.citusdata.com/blog/2018/09/11/postgresql-11-just-in-time/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.citusdata.com/blog/2018/09/11/postgresql-11-just-in-time/&lt;/a&gt;.&lt;/p&gt;
-      
-      </description>
-      
-      <comments>https://highgosoftware.github.io/2019/05/26/JIT/#disqus_thread</comments>
     </item>
     
     <item>
